@@ -1,0 +1,12 @@
+En tant que Mathieu, 33 ans, je me rends sur le site "TerreDeGeek". 
+Je me retrouve sur la page d'accueil et vois le logo du site avec le nom, une barre de navigation avec deux liens pour se rendre sur la page 
+"Produits" et "Entreprise".
+
+Je vois également une proposition d'articles avec photo, prix et courtes description.
+
+En cliquant sur un article ou sur le lien "Produits", je me retrouve sur la page de l'article concerné avec une description plus détaillée.
+
+Depuis la page principale, en cliquant sur le lien "Entreprise", je me retrouve sur la page contenant une photo de l'entreprise et la description
+de cette dernière.
+
+Je peux cliquer sur le lien "Accueil" pour revenir sur la page "Index" depuis n'importe quelle page.

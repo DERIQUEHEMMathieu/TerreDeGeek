@@ -1,0 +1,147 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="TerreDeGeek : Vente de produits électroniques (ordinateurs, smartphones et divers)">
+  <meta name="keywords" content="TerreDeGeek, vente, produits, électroniques, ordinateurs, smartphone, divers">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="img/LogoTerreDeGeek.png">
+  <link rel="shortcut icon" href="img/IconTerreDeGeek.ico" type="image/x-icon">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/Form.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+<!-- Header -->
+<header> 
+  <div class="div-categoryContainer">
+      <img src="img/LogoTerreDeGeek.png" alt="Logo TerreDeGeek" class="picture-left">
+          <div class="paragraph-right textColor">
+              <h1>TerreDeGeek</h1>
+              <h4>Vente de produits électroniques</h4>
+          </div>
+  </div>
+</header>
+<!-- End of Header -->
+  
+<!-- Navigation tool -->
+<nav>
+    <ul>
+        <a href="index.html" target="blank" class="navTextType textColor textWeight textSize textDecoration marginText">Accueil</a>     
+        <a href="products.html" target="blank" class="navTextType textColor textWeight textSize textDecoration marginText">Produits</a> 
+        <a href="prestations.html" target="blank" class="navTextType textColor textWeight textSize textDecoration marginText">Prestations</a>  
+        <a href="manufacture.html" target="blank" class="navTextType textColor textWeight textSize textDecoration marginText">Entreprise</a>      
+        
+    </ul>
+</nav>
+<!-- End of Navigation tool-->
+
+<!-- Main -->
+<main class="mainTextType layout">
+  <div class="googleMap">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41865.705564435215!2d1.1046822118108934!3d49.018068941805666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e147426882a9c5%3A0x72fe515be017f18!2zw4l2cmV1eA!5e0!3m2!1sfr!2sfr!4v1595486891525!5m2!1sfr!2sfr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+    </iframe>
+  </div>
+  <section>   
+    <div class="titre">
+      <h3>Contactez-nous :</h3>
+    </div>
+    <div class="titre">
+    <h6>Les champs marqués d'un * sont obligatoires</h6>
+    </div>
+    <div class="containerForm">
+      <form action="#" method="POST">
+        <div>
+          <label for="nom">Nom * :</label>
+          <input type="text" name="nom" id="nom" placeholder="Votre nom" required minlength="2" maxlength="40">
+        </div>
+        <div>
+          <label for="prenom">Prénom * :</label>
+          <input type="text" name="prenom" id="prenom" placeholder="Votre prénom" required minlength="2" maxlength="40">
+        </div>
+        <div>
+          <label for="age">Age :</label>
+          <input type="date" name="age" id="age" placeholder="jj/mm/aaaa" required min="1925/01/01" max="2010/01/01">
+        </div>
+        <div>
+          <label for="phone">Téléphone :</label>
+          <input type="tel" name="phone" id="phone" placeholder="0123456789" pattern="[0-9]{10}" required minlength="10" maxlength="10" size="10">
+        </div>
+        <div>
+          <label for="email">Email * :</label>
+          <input type="email" name="email" id="email" pattern=".+@gmail.com" required size="30" list="defaultEmails">
+          <datalist id="defaultEmails">
+            <option value="mathieuderiquehem@gmail.com">
+            </option>
+          </datalist>
+        </div>
+        <div>
+          <label for="cars">Objet * :</label>
+          <select name="reparations" id="reparations" required>
+            <optgroup label="Service client">
+              <option value="information">Information</option>
+              <option value="réclamation">Réclamation</option>
+            </optgroup>
+              <optgroup label="Service commercial">
+                <option value="partenariat">Partenariat</option>
+              </optgroup>
+                <optgroup label="Autre">
+                  <option value="autre">Autre</option>
+                </optgroup>
+          </select>
+        </div>
+        <div>
+          <label for="message">Message * :</label>
+          <textarea name="message" id="message" cols="40" rows="5" placeholder="Votre Message" required autocapitalize="sentences"></textarea>
+        </div>
+        <aside>
+          <input type="reset" value="Reset">
+          <input type="submit" value="Envoi">
+        </aside>
+      </form>
+    </div>
+  </section>
+</main>
+<!-- End of Main -->
+
+<!-- Footer -->
+<footer>
+  <div class="SocialNetwork">
+      <a href="https://fr-fr.facebook.com/" target="blank" rel="noopener"><img src="img/facebookLogo.png" alt="Facebook"></a>
+  </div>
+  <div class="SocialNetwork">
+      <a href="https://twitter.com/explore" target="blank" rel="noopener"><img src="img/twitterLogo.png" alt="Twitter"></a>
+  </div>
+  <div class="SocialNetwork">
+      <a href="https://www.instagram.com/?hl=fr" target="blank" rel="noopener"><img src="img/instagramLogo.png" alt="Instagram"></a>
+  </div>
+  <div>
+  <p class="textColor textSize">Mentions légales : © Copyright july 20 by Mathieu</p>
+  </div>
+</footer>
+<!-- End of Footer -->
+
+  <!-- Add your site or application content here -->
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
